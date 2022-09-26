@@ -14,6 +14,6 @@ public enum LocationTypes implements Serializable {
     Szeged("Szeged", 2),
     Debrecen("Debrecen", 3);
 
-    private String name;
-    private int id;
+    private final String name;
+    private final int id;
 }
