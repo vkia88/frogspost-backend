@@ -1,4 +1,4 @@
-package hu.frogspost.frogspost.controller.Boxes;
+package hu.frogspost.frogspost.controller;
 
 import hu.frogspost.frogspost.repository.BoxRepository;
 import hu.frogspost.frogspost.repository.PublicBox;

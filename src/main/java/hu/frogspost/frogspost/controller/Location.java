@@ -1,4 +1,4 @@
-package hu.frogspost.frogspost.controller.Locations;
+package hu.frogspost.frogspost.controller;
 
 import hu.frogspost.frogspost.enums.LocationTypes;
 import org.springframework.web.bind.annotation.CrossOrigin;
