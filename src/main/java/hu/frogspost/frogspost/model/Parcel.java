@@ -38,5 +38,8 @@ public class Parcel {
     @OneToOne(mappedBy = "parcel")
     private Box box;
 
+    @Column
+    @Enumerated(EnumType.STRING)
+    @NotNull
     private BoxSizes size;
 }
