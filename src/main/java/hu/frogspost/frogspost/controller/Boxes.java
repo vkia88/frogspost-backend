@@ -19,7 +19,7 @@ public class Boxes {
     public ResponseEntity<Map<String, Object>> getBoxesAtLocation(@PathVariable Integer locationId) {
         Map<String, Object> response = new HashMap<>();
 
-        List<PublicBox> boxes = boxRepository.getByLocationId(locationId);
+        List<PublicBox> boxes = boxRepository.getPublicByLocationId(locationId);
 
         response.put("boxes", boxes);
 
