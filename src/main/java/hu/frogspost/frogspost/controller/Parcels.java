@@ -55,6 +55,10 @@ public class Parcels {
 
         String removedName = foundParcel.getName();
 
+        Box box = foundParcel.getBox();
+        box.setParcel(null);
+        boxRepository.save(box);
+
         parcelRepository.delete(foundParcel);
 
         return ResponseEntity.ok("Successfully picked up parcel: " + removedName);
