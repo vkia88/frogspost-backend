@@ -1,4 +1,4 @@
-package hu.frogspost.frogspost.controller.Locations;
+package hu.frogspost.frogspost.enums;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
@@ -15,5 +15,5 @@ public enum LocationTypes implements Serializable {
     Debrecen("Debrecen", 3);
 
     private final String name;
-    private int id;
+    private final int id;
 }
