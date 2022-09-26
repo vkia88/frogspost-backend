@@ -4,4 +4,6 @@ public interface PublicBox {
     Integer getId();
 
     String getSize();
+
+    Integer getParcelId();
 }
